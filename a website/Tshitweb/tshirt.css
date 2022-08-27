@@ -1,0 +1,224 @@
+.container{
+     
+    width: 40%;
+   height: 200px;
+    column-gap: 3px;
+    row-gap: 3px;
+   background: black;
+    position: fixed;
+    bottom: 0;
+    top: 40px;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.shirt-preview{
+    position: absolute;
+  top: 350px;
+    left: 20px;
+     
+}
+
+.img{
+    width: 100%;
+
+}
+
+.flexshirt{
+    width: 130px;
+}
+
+.preshirt{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+     
+    
+}
+
+.shirt-preview a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+
+}
+
+.shirt{
+    
+    margin: 0;
+    padding:0 ;
+position: relative;
+}
+
+.buy{
+    position: absolute;
+     bottom: 0;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    height: 30px;
+    color: black;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: 0.9s ease;
+    border: none;
+    border: 1px solid white;
+}
+
+.overlay{
+    position: absolute;
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 244px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(225, 225, 225, 0.8);
+}
+
+ .x{
+    width: 200px;
+    color: red;
+ }
+
+.cart{
+    position: absolute;
+    bottom: 30px;
+   background-color: transparent;
+   left: 0;
+   right: 0;
+   height: 30px;
+   border: 1px solid pink;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 700;
+   letter-spacing: 2px;
+   font-size: 17px;
+   color: black;
+   transition: 0.7s ease-in;
+   cursor: pointer;
+}
+
+.cart:hover{
+background-color: blanchedalmond;
+color: blue;
+}
+
+.buy:hover{
+    background-color: blue;
+    color: white;
+    
+}
+    
+.word{
+    position: absolute;
+    color: white;
+    top: 0;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+ .buy1{
+    position: absolute;
+    bottom: 0;
+   background-color: transparent;
+   left: 0;
+   right: 0;
+   height: 30px;
+   color: white;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+   transition: 0.9s ease;
+   border: none;
+   border: 1px solid white;
+ }
+
+ .buy1:hover{
+    background-color: blue;
+    color: white;
+    
+}
+
+.word a{
+    color: black;
+}
+
+ .white{
+    position: absolute;
+     top: 0;
+    right: 90px;
+    font-size: large;
+    font-weight: bold;
+    left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ 
+
+.theshirt{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color:  rgba(225, 225, 225, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    margin-right:10px ;
+    overflow-y: scroll;
+    height: 1000px;
+}
+
+.product{
+ 
+font-size: large;
+color: rgb(221, 138, 12);
+position: fixed;
+right: 100px;
+}
+
+.welcome{
+    white-space: nowrap;
+    margin: 20px 0px 0 30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.para{
+    letter-spacing: 3px;
+      font-size: 25px;
+      margin: 20px;
+     color: black;
+}
+
+.container1{
+     display: inline-block;
+     width: 700px;
+    margin-top: 20px;
+}
+
+.wholesale{
+    font-size: 25px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 0 0 20px;
+}
+
+ 

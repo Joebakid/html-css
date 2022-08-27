@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit ;
+    padding: 0;
+}
+
+body{
+ background-color:#1077d8 ;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  font-family: 'source sans pro', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 50px 0;
+}
+
+.form-container{
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: rgb(3, 3, 3, 0.1) 10px 0 50px;
+}
+
+.form-container_details{
+    margin-bottom: 40px;
+}
+
+.form-container_title{
+    font-size: 38px;
+    color: #555;
+    margin-bottom: 7px;
+}
+
+.form-container_substitle{
+    font-size: 18px;
+    color: #999;
+}
+
+.form_field{
+    margin-bottom: 30px;
+}
+
+.form_label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+}
+
+.form_input{
+    width: 100%;
+    padding: 25px 15px;
+    border: 0;
+    background: rgba(240, 240, 240);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 600px;
+}
+
+.form_input:focus{
+    outline: 2px solid ;
+}
+
+.form_input::placeholder{
+    color: rgb(163, 159, 159);
+}
+
+.form_submit{
+    border: none;
+    padding: 25px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #037ef3;
+    color: #fff;
+    width: 100%;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.8%;
+}
+
+.form_submit:hover{
+    background-color: #0069cc;
+}
+
+.form-container_line-divider{
+    background-color: #037ef3;
+    height: 3px;
+    width: 30px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 50px;
+}
+
+.auth-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.auth-options_icon-cont{
+    background: #037ff331;
+    width: 47px;
+    height: 47px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.auth-options_icon{
+    font-size: 25px;
+    color: #037ef3;
+    transition: all 0.8s;
+}
+
+.auth-options_icon-cont:hover{
+    background: #037ef3;
+}
+
+.auth-options_icon-cont:hover .auth-options_icon{
+    color: #fff;
+    
+}
+
+@media (max-width:600px){
+    .form-container{
+        padding: 30px 25px;
+    }
+
+    .form_input, .form_submit{
+        18px 15px
+    }
+
+    .auth-options{
+        width: 90%;
+    }
+
+    .auth-options_icon-cont{
+        width: 40px;
+        height: 40px;
+    }
+
+    .auth-options_icon{
+        font-size: 20px;
+    }
+}

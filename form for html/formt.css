@@ -1,0 +1,154 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 10px 0 0 5px;
+}
+
+.f{
+    margin: 0 0 20px;
+}
+
+ .welcome{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+ }
+
+.container{
+    background: #fff;
+    padding: 20px;
+    width: 100%;
+     background-color: rgb(238, 241, 240);
+    max-width: 550px;
+    border-radius: 10px;
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     align-items: center;
+     background-image: url(paint.jpg);
+    display: flex;
+    justify-content: center;
+     margin: 0;
+     min-height: 100vh;
+     overflow-y: scroll;
+     height: 700px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-label{
+    display: block;
+}
+
+p{
+  
+    display: inline;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.gender{
+    padding: 0 0 ;
+    margin: 0;
+    display: block;
+}
+
+.facebook{
+    margin: 0 5px 0;
+}
+
+.icons{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.sex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.register {
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #037ef3;
+    color: #fff;
+    width: 50%;
+    border-radius: 1%;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.reg-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.linebreak{
+    width: 35px;
+    height: 3px;
+    background: rgb(73, 39, 77);
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 0 0;
+    padding: 0 0 0;
+}
+
+ .regcont{
+    margin: 0 ;
+    padding: 0;
+ }
+
+ .reg-word{
+    margin: 0;
+    padding: 0;
+    color: rgb(80, 46, 5);
+ }
+
+ .form-input{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-radius: 5px;
+    border: 0.5px solid  rgb(143, 143, 180);
+ }
+
+ @media (max-width: 700px){
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         align-items: center;
+         background-color: lightblue;
+        display:  block;
+         width: 500px   ;
+    }
+
+    .grid{
+        display: block;
+       
+        margin: 10px 0 0 5px;
+    }
+
+    .welcome{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        
+     }
+
+  }
